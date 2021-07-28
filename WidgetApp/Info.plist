@@ -23,6 +23,7 @@
 	<key>NSUserActivityTypes</key>
 	<array>
 		<string>Configuration2Intent</string>
+		<string>ConfigurationIntent</string>
 		<string>ViewMapLayerIntent</string>
 	</array>
 	<key>UIApplicationSceneManifest</key>
