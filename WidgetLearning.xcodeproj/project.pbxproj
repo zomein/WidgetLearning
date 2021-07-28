@@ -413,7 +413,7 @@
 				CODE_SIGN_ENTITLEMENTS = WidgetApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 64P8YXLPZZ;
-				INFOPLIST_FILE = Widget/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/WidgetApp/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -435,7 +435,7 @@
 				CODE_SIGN_ENTITLEMENTS = WidgetApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 64P8YXLPZZ;
-				INFOPLIST_FILE = Widget/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/WidgetApp/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
