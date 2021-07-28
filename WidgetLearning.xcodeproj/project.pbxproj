@@ -49,7 +49,7 @@
 /* Begin PBXFileReference section */
 		D8A1F19326AEEA1400824028 /* WidgetApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WidgetApp.entitlements; sourceTree = "<group>"; };
 		D8A1F19426AEEAD200824028 /* MyWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyWidgetExtension.entitlements; sourceTree = "<group>"; };
-		D8E4700226A709ED005AE68B /* WidgetApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WidgetApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8E4700226A709ED005AE68B /* WidgetLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WidgetLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8E4700526A709ED005AE68B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8E4700726A709ED005AE68B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D8E4700926A709ED005AE68B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -91,7 +91,7 @@
 			children = (
 				D8A1F19426AEEAD200824028 /* MyWidgetExtension.entitlements */,
 				D8A1F19326AEEA1400824028 /* WidgetApp.entitlements */,
-				D8E4700426A709ED005AE68B /* Widget */,
+				D8E4700426A709ED005AE68B /* WidgetApp */,
 				D8E4702326A70AC8005AE68B /* My Widget */,
 				D8E4701E26A70AC8005AE68B /* Frameworks */,
 				D8E4700326A709ED005AE68B /* Products */,
@@ -101,13 +101,13 @@
 		D8E4700326A709ED005AE68B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D8E4700226A709ED005AE68B /* WidgetApp.app */,
+				D8E4700226A709ED005AE68B /* WidgetLearning.app */,
 				D8E4701D26A70AC8005AE68B /* MyWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D8E4700426A709ED005AE68B /* Widget */ = {
+		D8E4700426A709ED005AE68B /* WidgetApp */ = {
 			isa = PBXGroup;
 			children = (
 				D8E4700526A709ED005AE68B /* AppDelegate.swift */,
@@ -118,7 +118,7 @@
 				D8E4701026A709EE005AE68B /* LaunchScreen.storyboard */,
 				D8E4701326A709EE005AE68B /* Info.plist */,
 			);
-			path = Widget;
+			path = WidgetApp;
 			sourceTree = "<group>";
 		};
 		D8E4701E26A70AC8005AE68B /* Frameworks */ = {
@@ -144,9 +144,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D8E4700126A709ED005AE68B /* WidgetApp */ = {
+		D8E4700126A709ED005AE68B /* WidgetLearning */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D8E4701626A709EE005AE68B /* Build configuration list for PBXNativeTarget "WidgetApp" */;
+			buildConfigurationList = D8E4701626A709EE005AE68B /* Build configuration list for PBXNativeTarget "WidgetLearning" */;
 			buildPhases = (
 				D8E46FFE26A709ED005AE68B /* Sources */,
 				D8E46FFF26A709ED005AE68B /* Frameworks */,
@@ -158,9 +158,9 @@
 			dependencies = (
 				D8E4702D26A70AC9005AE68B /* PBXTargetDependency */,
 			);
-			name = WidgetApp;
+			name = WidgetLearning;
 			productName = Widget;
-			productReference = D8E4700226A709ED005AE68B /* WidgetApp.app */;
+			productReference = D8E4700226A709ED005AE68B /* WidgetLearning.app */;
 			productType = "com.apple.product-type.application";
 		};
 		D8E4701C26A70AC8005AE68B /* MyWidgetExtension */ = {
@@ -197,7 +197,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D8E46FFD26A709ED005AE68B /* Build configuration list for PBXProject "WidgetApp" */;
+			buildConfigurationList = D8E46FFD26A709ED005AE68B /* Build configuration list for PBXProject "WidgetLearning" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -210,7 +210,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D8E4700126A709ED005AE68B /* WidgetApp */,
+				D8E4700126A709ED005AE68B /* WidgetLearning */,
 				D8E4701C26A70AC8005AE68B /* MyWidgetExtension */,
 			);
 		};
@@ -497,7 +497,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D8E46FFD26A709ED005AE68B /* Build configuration list for PBXProject "WidgetApp" */ = {
+		D8E46FFD26A709ED005AE68B /* Build configuration list for PBXProject "WidgetLearning" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D8E4701426A709EE005AE68B /* Debug */,
@@ -506,7 +506,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D8E4701626A709EE005AE68B /* Build configuration list for PBXNativeTarget "WidgetApp" */ = {
+		D8E4701626A709EE005AE68B /* Build configuration list for PBXNativeTarget "WidgetLearning" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D8E4701726A709EE005AE68B /* Debug */,
